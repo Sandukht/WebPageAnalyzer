@@ -79,11 +79,9 @@ You can do this in **two ways**:
 ### Option 1 — Run `schema.sql` in MySQL CLI
 
 ```bash
-mysql -u root -p < app/src/main/java/com/example/db/schema.sql
+mysql -u root -p < app/src/main/resources/db/schema.sql
 ```
-
 **schema.sql**
-
 ```sql
 CREATE DATABASE IF NOT EXISTS webpage_analyzer;
 
